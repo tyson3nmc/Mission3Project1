@@ -6,6 +6,6 @@ static void Main()
 {
 Finch myFinch = new Finch();
 myFinch.connect();
-
+myFinch.disConnect();
 }
 }
