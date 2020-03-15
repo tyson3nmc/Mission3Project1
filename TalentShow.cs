@@ -46,6 +46,14 @@ myFinch.noteOn(250);
 myFinch.wait(500);
 myFinch.noteOff();
 myFinch.wait(100);
+myFinch.noteOn(320);
+myFinch.wait(500);
+myFinch.noteOff();
+myFinch.wait(100);
+myFinch.noteOn(300);
+myFinch.wait(500);
+myFinch.noteOff();
+myFinch.wait(500);
 
 myFinch.disConnect();
 }
